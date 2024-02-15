@@ -8,7 +8,7 @@ def check_execution():
     # Lógica para verificar o registro de execução
     # Aqui estamos apenas simulando que a execução ocorreu hoje se a hora atual for após 9:00
     now = datetime.datetime.now()
-    return now.hour >= 9
+    return now.hour >= 16
 
 # Função principal
 def main():
