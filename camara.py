@@ -2,7 +2,6 @@ import requests
 import datetime
 import pandas as pd
 import streamlit as st
-import schedule
 import time
 
 st.set_page_config(layout='wide')
